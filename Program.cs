@@ -12,7 +12,7 @@ while (attempt != secretCode && tries > 0)
 
 if (attempt != secretCode)
     {
-         Console.WriteLine("Incorrect code. Please try again.");
+         Console.WriteLine($"Incorrect code. Please try again.\n tries left: {tries}");
     }
 }
 if (tries == 0 && attempt != secretCode)
